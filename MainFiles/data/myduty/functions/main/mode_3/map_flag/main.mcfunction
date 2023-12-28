@@ -1,0 +1,9 @@
+execute if score #map map matches 1 run function myduty:main/mode_3/map_flag/map_1
+execute if score #map map matches 2 run function myduty:main/mode_3/map_flag/map_2
+execute if score #map map matches 3 run function myduty:main/mode_3/map_flag/map_3
+execute if score #map map matches 4 run function myduty:main/mode_3/map_flag/map_4
+execute if score #map map matches 5 run function myduty:main/mode_3/map_flag/map_5
+execute if score #map map matches 6 run function myduty:main/mode_3/map_flag/map_6
+execute if score #map map matches 7 run function myduty:main/mode_3/map_flag/map_7
+execute if score #map map matches 8 run function myduty:main/mode_3/map_flag/map_8
+execute if score #map map matches 9 run function myduty:main/mode_3/map_flag/map_9

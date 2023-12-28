@@ -1,0 +1,2 @@
+execute if score #max kda_k matches ..9 unless entity @e[tag=max_score_10] run summon area_effect_cloud 180 4 180 {Duration:300000000,Tags:["max_score_10"],CustomName:'{"translate":"space.6"}'}
+execute if score #max kda_k matches 10.. if entity @e[tag=max_score_10] run kill @e[tag=max_score_10]
