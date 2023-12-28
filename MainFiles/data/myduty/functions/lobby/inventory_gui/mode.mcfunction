@@ -1,0 +1,10 @@
+scoreboard players set @s lobby_ui 2
+clear @s #minecraft{Tags:["clear"]}
+replaceitem entity @s inventory.0 bell{Tags:["tips","clear"],display:{Name:'[{"text":"教程","color":"white","italic": false,"bold": true},{"text":"(点击使用)","color":"dark_gray","italic": false,"bold": false}]'}}
+replaceitem entity @s inventory.9 oak_sign{Tags:["mode","clear"],display:{Name:'[{"text":"模式介绍","color":"white","italic": false,"bold": true},{"text":"(点击使用)","color":"dark_gray","italic": false,"bold": false}]'}}
+
+replaceitem entity @s inventory.11 paper{Tags:["clear"],display:{Name:'{"text":"团队竞技","color":"green","italic": false,"bold": true}',Lore:['{"text":"通过消灭敌人来增加阵营分数","color":"gray","italic": false}','{"text":"达到目标分数则胜利","color":"gray","italic": false}']}}
+replaceitem entity @s inventory.12 paper{Tags:["clear"],display:{Name:'{"text":"军备竞赛","color":"green","italic": false,"bold": true}',Lore:['{"text":"通过消灭敌人来获得新的武器","color":"gray","italic": false}','{"text":"用最终武器击杀的一方阵营胜利","color":"gray","italic": false}']}}
+replaceitem entity @s inventory.13 paper{Tags:["clear"],display:{Name:'{"text":"征服","color":"green","italic": false,"bold": true}',Lore:['{"text":"通过占领点位来增加阵营分数","color":"gray","italic": false}','{"text":"并阻止敌人占领,达到目标分数","color":"gray","italic": false}','{"text":"的一方阵营胜利","color":"gray","italic": false}']}}
+replaceitem entity @s inventory.14 paper{Tags:["clear"],display:{Name:'{"text":"搜索与摧毁","color":"green","italic": false,"bold": true}',Lore:['{"text":"轮流摧毁或保护A和B炸弹地点","color":"gray","italic": false}','{"text":"在包点低头安装或拆除C4炸弹","color":"gray","italic": false}','{"text":"达到目标分数则胜利","color":"gray","italic": false}']}}
+replaceitem entity @s inventory.15 paper{Tags:["clear"],display:{Name:'{"text":"死亡竞赛","color":"green","italic": false,"bold": true}',Lore:['{"text":"消灭你看到的任何敌人!","color":"gray","italic": false}','{"text":"每次复活都是随机传送点和随机武器","color":"gray","italic": false}','{"text":"达到目标分数则胜利","color":"gray","italic": false}']}}
