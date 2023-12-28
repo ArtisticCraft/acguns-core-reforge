@@ -1,0 +1,9 @@
+execute if score #map map matches 1 run function myduty:main/gui/one_items/map_1
+execute if score #map map matches 2 run function myduty:main/gui/one_items/map_2
+execute if score #map map matches 3 run function myduty:main/gui/one_items/map_3
+execute if score #map map matches 4 run function myduty:main/gui/one_items/map_4
+execute if score #map map matches 5 run function myduty:main/gui/one_items/map_5
+execute if score #map map matches 6 run function myduty:main/gui/one_items/map_6
+execute if score #map map matches 7 run function myduty:main/gui/one_items/map_7
+execute if score #map map matches 8 run function myduty:main/gui/one_items/map_8
+execute if score #map map matches 9 run function myduty:main/gui/one_items/map_9

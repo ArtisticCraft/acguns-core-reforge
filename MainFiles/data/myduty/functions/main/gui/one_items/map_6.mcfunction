@@ -1,0 +1,2 @@
+execute as @a[team=blue] unless entity @s[x=1059,y=5,z=633,dx=-8,dy=2,dz=-8] run scoreboard players set @s team_fight_menu 8888
+execute as @a[team=red] unless entity @s[x=1121,y=5,z=621,dx=8,dy=2,dz=8] run scoreboard players set @s team_fight_menu 8888
