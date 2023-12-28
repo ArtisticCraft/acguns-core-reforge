@@ -1,0 +1,21 @@
+#军备竞赛
+execute if score @s kda_k matches 0 run function myduty:main/mode_2/score/score_guns/0
+execute if score @s kda_k matches 1 run function myduty:main/mode_2/score/score_guns/1
+execute if score @s kda_k matches 2 run function myduty:main/mode_2/score/score_guns/2
+execute if score @s kda_k matches 3 run function myduty:main/mode_2/score/score_guns/3
+execute if score @s kda_k matches 4 run function myduty:main/mode_2/score/score_guns/4
+execute if score @s kda_k matches 5 run function myduty:main/mode_2/score/score_guns/5
+execute if score @s kda_k matches 6 run function myduty:main/mode_2/score/score_guns/6
+execute if score @s kda_k matches 7 run function myduty:main/mode_2/score/score_guns/7
+execute if score @s kda_k matches 8 run function myduty:main/mode_2/score/score_guns/8
+execute if score @s kda_k matches 9 run function myduty:main/mode_2/score/score_guns/9
+execute if score @s kda_k matches 10 run function myduty:main/mode_2/score/score_guns/10
+execute if score @s kda_k matches 11 run function myduty:main/mode_2/score/score_guns/11
+execute if score @s kda_k matches 12 run function myduty:main/mode_2/score/score_guns/12
+execute if score @s kda_k matches 13 run function myduty:main/mode_2/score/score_guns/13
+execute if score @s kda_k matches 14 run function myduty:main/mode_2/score/score_guns/14
+execute if score @s kda_k matches 15 run function myduty:main/mode_2/score/score_guns/15
+execute if score @s kda_k matches 16 run function myduty:main/mode_2/score/score_guns/16
+execute if score @s kda_k matches 17 run function myduty:main/mode_2/score/score_guns/17
+execute if score @s kda_k matches 18 run function myduty:main/mode_2/score/score_guns/18
+execute if score @s kda_k matches 19 run function myduty:main/mode_2/score/score_guns/19

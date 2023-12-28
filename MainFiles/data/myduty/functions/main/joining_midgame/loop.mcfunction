@@ -1,0 +1,2 @@
+execute store result score #blue_player ready_player run effect give @a[team=blue] saturation 2 0 true
+execute store result score #red_player ready_player run effect give @a[team=red] saturation 2 0 true

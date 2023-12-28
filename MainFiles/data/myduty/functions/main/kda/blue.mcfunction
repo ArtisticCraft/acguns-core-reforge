@@ -1,0 +1,2 @@
+tellraw @a {"text":"- ","color":"blue","bold":true,"extra":[{"selector": "@s","bold":false,"color":"blue"},{"text":" [","bold":true,"color":"white"},{"text":"击杀","bold":true,"color":"dark_green"},{"text":"]:","bold":true,"color":"white"},{"score":{"objective":"kda_k","name":"@s"},"color":"dark_green","bold":false},{"text":" [","bold":true,"color":"white"},{"text":"死亡","bold":true,"color":"red"},{"text":"]:","bold":true,"color":"white"},{"score":{"objective":"kda_d","name":"@s"},"color":"red","bold":false}]}
+tag @s[team=blue,tag=kda] remove kda
